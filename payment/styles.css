@@ -1,0 +1,123 @@
+
+body{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button{
+        cursor: pointer;
+    }
+}
+
+.bank-container{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    width: 470px;
+    justify-content: space-between;
+    border-radius: 20px;
+
+    .left-details{
+        display: flex;
+    }
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+  .bank{
+    text-align: left;
+    h3{
+        margin: 0px;
+        font-size: 24px;
+    }
+    p{
+        margin: 0px;
+    }
+
+  }
+
+  .change-button{
+    background-color: white;
+    font-size: 1rem;
+    border: none;
+
+    span{
+        font-weight: 700;
+    }
+  }
+}
+.heading{
+    width: 500px;
+    text-align: left;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    ::placeholder{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+}
+input:focus{
+    outline: none;
+}
+
+button.Fund{
+    background-color: purple;
+    width: 60px;
+    height: 30px;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    
+    :first-child{
+        vertical-align: middle;
+    }
+    .fund-option{
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        justify-content: center;
+        margin-top: 40px;
+        gap: 10px;
+        
+    
+        button{
+            padding: 20px;
+            background-color: rgb(240, 240, 240);
+            border-radius: 20px;
+            border: none;
+            font-size: 20px;
+    
+    
+        }
+        
+    }
+    span{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
+
