@@ -1,0 +1,39 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+
+   h2{
+    margin: 0px;
+   }
+    
+}
+
+
+.left-section{
+  
+    width: 50%;
+    height: 100vh;
+    background-image: url(../images/zane-lee-mD0gcnkA7BQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;    
+    
+    h2,h4{
+        text-align: center;
+        
+    }
+}
+.right-section{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+ 
+
+
+    .input-fields{
+        display: flex;
+        flex-direction: column;
+    }
+}
