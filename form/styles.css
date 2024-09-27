@@ -1,0 +1,141 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-section {
+  width: 50%;
+  height: 100vh;
+  background-image: url(../images/zane-lee-mD0gcnkA7BQ-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 20px 20px 0px;
+
+  div {
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+    width: 50%;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    border-radius: 0px 20px 20px 0px;
+  }
+
+  h2 {
+    margin: 0px;
+    font-size: 70px;
+    color: white;
+    z-index: 1;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 100;
+    color: white;
+    z-index: 1;
+  }
+}
+.right-section {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+
+  h2{
+    font-size: 50px;
+  }
+
+  .input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+        padding: 10px;
+      height: 40px;
+      width: 400px;
+      border: 2px rgb(239, 239, 239) solid ;
+      border-radius: 10px;
+      box-shadow: -2px 0px 20px rgb(237, 237, 237) ;
+      
+    }
+    input:focus{
+        outline: none;
+    }
+
+    input::placeholder{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    input::selection{
+        background-color: green;
+        color: white;
+    }
+  }
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    button:first-child{
+        background-color:black;
+        color: white;
+        width: 400px;
+        height: 60px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+
+    }
+    button{
+        border: none;
+        background-color:rgb(218, 218, 218);
+        color: rgb(0, 0, 0);
+        width: 400px;
+        height: 40px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+}
+.terms{
+    width: 430px;
+    display: flex;
+    gap: 0px;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    
+    .terms-checkbox{
+        margin: 0px;
+        padding: 0px;
+
+    }
+}
+.result-holder{
+    display: flex;
+    justify-content: left;
+    width: 400px;
+}
+.result{
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+    
+        
+}
